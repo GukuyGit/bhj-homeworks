@@ -5,7 +5,7 @@ textEditor.addEventListener('input', (event) => {
     localStorage.setItem('textEditorArea', textEditor.value);
 });
 
-const clear = document.getElementById('clearTextEditorArea');
+const clear = document.getElementById('clear_btn');
 
 clear.addEventListener('click', () => {
     localStorage.removeItem('textEditorArea');
