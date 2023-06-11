@@ -3,7 +3,6 @@ const inputFields = Array.from(document.querySelectorAll('.control'));
 const userId = document.getElementById('user_id');
 const signin = document.querySelector('.signin');
 const welcome = document.querySelector('.welcome');
-const button = document.querySelector('.btn');
 let savedUserId
 
 formAuth.addEventListener('submit', (event) => {
